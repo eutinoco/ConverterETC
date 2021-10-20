@@ -5,6 +5,12 @@
     --colorFont-header-footer: #5a5656;
 }
 
+.javascript {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 /* Header */
 
 .header {
