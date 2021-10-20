@@ -7,7 +7,7 @@
 
 .javascript {
     text-align: center;
-    font-size: 22px;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@
     margin: 20px 10px;
 }
 .aside select {
-    width: 200px;
+    width: 100%;
 }
 
 .content {
@@ -72,7 +72,7 @@
     background-color: #ffffff;
 }
 .boxValue {
-    width: 111px;
+    width: 33%;
 }
 .info {
     margin: 25px auto;
@@ -97,4 +97,11 @@
 .footer a {
     color: var(--colorFont-header-footer);
     font-weight: 600;
+}
+
+@media screen and (max-width: 360px) {
+    
+    .section-content {
+        height: 25%;
+    }
 }
