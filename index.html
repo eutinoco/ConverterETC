@@ -22,14 +22,30 @@
                 <p>
                     Converter:
                     <select name="converter" id="converter">
-                        <option value="Dólar">Dólar</option>
+                        <option value="moeda">MOEDA</option>
                     </select>
                 </p>
             </div>
         </aside>
 
         <section class="content" id="content">
-
+            <div class="section-content">
+                <div class="info">
+                    <input type="text" class="boxValue" id="moedaValor1">
+                    <select name="name" id="moeda" class="boxValue">
+                        <option value="R$">Real Brasileiro</option>
+                        <option value="US$">Dólar Americano</option>
+                    </select>
+                    <span class="para">
+                        Para:
+                    </span>
+                    <select name="name" id="moeda2">
+                        <option value="US$">Dólar Americano</option>
+                        <option value="R$">Real Brasileiro</option>
+                    </select>
+                </div>
+                <div class="result" id="result"></div>
+            </div>
         </section>
 
     </main>
