@@ -1,0 +1,69 @@
+/* Root */
+
+:root {
+
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6ce7e7;
+    height: 10vh;
+}
+.header a {
+    color: #5a5656;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Corpo */
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+
+.aside {
+    background-color: #ffffff;
+    margin: 3vh 2vh;
+    border: 1px solid #000000;
+    width: 30vw;
+    height: 74vh;
+}
+.aside-content {
+    margin: 20px 10px;
+}
+.aside select {
+    width: 200px;
+}
+
+.content {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    margin: 3vh 2vh;
+    width: 70vw;
+    height: 74vh;
+}
+
+/* Rodapé */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #6ce7e7;
+}
+.footer a {
+    color: #5a5656;
+    font-weight: 600;
+}
